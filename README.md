@@ -29,5 +29,6 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.js
 
 ## Status
 
-Screenshots in `screenshots/` are placeholders from the starter kit and must be replaced with
-captures of this dashboard (board, detail view, filtered view) before submission.
+Screenshots in `screenshots/` are real renders of this dashboard in desktop
+Chrome (board, detail view, filtered view), captured by the entry's maker
+with Playwright driving the dashboard served from `out/`.
