@@ -1,6 +1,10 @@
 # Token Radar, model radar-2
 
-A token-radar-01 entry. `main.ts` (Node 22, standard library only) reads the sealed snapshot,
+[![token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/c/token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/denbenyb-ctrl/token-radar-entry/rank.svg)](https://make.fun/c/token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/denbenyb-ctrl/token-radar-entry/reward.svg)](https://make.fun/c/token-radar-01)
+
+An entry for the [token-radar-01 competition on make.fun](https://make.fun/c/token-radar-01). `main.ts` (Node 22, standard library only) reads the sealed snapshot,
 scores every pre-token protocol, writes the ranked board, and copies the static dashboard and
 screenshots to the output. The judge reads `dossier.json`, built last from the output.
 
