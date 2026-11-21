@@ -27,6 +27,8 @@ watchlist-only. The live-token view shows market caps and market-cap to TVL rati
 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
 
+The run is deterministic: the same snapshot always writes the same bytes.
+
 ## Status
 
 Screenshots in `screenshots/` are real renders of this dashboard in desktop
